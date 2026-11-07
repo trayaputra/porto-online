@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Email - TempMail Client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📧 Generator Email</h1>
+            <p>TempMail Client untuk Generator.email</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>Generate Email Baru</h2>
+                <button id="generateBtn" class="btn btn-primary">Generate Email</button>
+                <div id="emailResult" class="result"></div>
+            </section>
+
+            <section class="card">
+                <h2>Gunakan Email Kustom</h2>
+                <input type="text" id="customEmail" placeholder="user@domain.com" class="input-field">
+                <button id="customBtn" class="btn btn-secondary">Gunakan Email</button>
+                <div id="customResult" class="result"></div>
+            </section>
+
+            <section class="card">
+                <h2>Cek Inbox Email</h2>
+                <input type="text" id="inboxEmail" placeholder="email@domain.com" class="input-field">
+                <button id="inboxBtn" class="btn btn-secondary">Cek Inbox</button>
+                <div id="inboxResult" class="result"></div>
+                <div id="inboxMessages" class="messages"></div>
+            </section>
+
+            <section class="card">
+                <h2>Cari Domain</h2>
+                <input type="text" id="searchDomain" placeholder="cari domain (misal: gmail)" class="input-field">
+                <button id="searchBtn" class="btn btn-secondary">Cari Domain</button>
+                <div id="searchResult" class="result"></div>
+            </section>
+
+            <section class="card">
+                <h2>Daftar Domain Aktif</h2>
+                <button id="domainsBtn" class="btn btn-secondary">Tampilkan Domain</button>
+                <div id="domainsResult" class="result"></div>
+            </section>
+
+            <section class="card">
+                <h2>Uptime Email</h2>
+                <input type="text" id="uptimeEmail" placeholder="email@domain.com" class="input-field">
+                <button id="uptimeBtn" class="btn btn-secondary">Cek Uptime</button>
+                <div id="uptimeResult" class="result"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Dibuat dengan ❤️ | Generator.email Scraper & TempMail Client</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
